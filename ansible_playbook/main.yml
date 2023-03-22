@@ -1,0 +1,8 @@
+---
+- name: Calling my own plugin
+  hosts: localhost
+  gather_facts: no
+
+  roles:
+    - job
+      #    - workflow
