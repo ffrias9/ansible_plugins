@@ -1,0 +1,6 @@
+url: "AWX server hostname or ip address"
+api_v: "API version"
+user: "AWX username"
+password: "AWX user password"
+job: "Job id"
+credential: "Credentials id"
