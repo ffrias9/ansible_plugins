@@ -1,7 +1,7 @@
 ---
   - launch_awx_workflow:
       url: "{{ url }}"
+      api_v: 2
       user: "{{ user }}"
       password: "{{ password }}"
       job: "{{ job }}"
-    no_log: True

@@ -2,8 +2,8 @@
   - name: Launch job
     launch_awx_job:
       url: "{{ url }}"
+      api_v: "{{ api_v }}"
       user: "{{ user }}"
       password: "{{ password }}"
       job: "{{ job }}"
       credential: "{{ credential }}"
-    no_log: True
